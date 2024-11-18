@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en-gb">
+<head>
+<title>Alice's mirror</title>
+<!-- A demonstration of using the 2D graphics context of HTML5 to create animated
+3D worlds from plain JavaScript without any other libraries or frameworks.
+By Graham Relf, UK, 2021-24 (grelf.itch.io) -->
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<style type="text/css">
+body {font-family:sans-serif;font-size:medium;padding:0}
+#buttons, #title, #hint {float:left}
+#hint, .smaller {font-size:smaller}
+#data {clear:both}
+#title {background:#a00;color:#ff0;font-weight:bold;width:200px;padding:6px 16px;text-align:center}
+.control {text-align:center;font-weight:bold;padding:16px;float:left;border-radius:10px;
+margin:0 4px;}
+</style>
+</head>
+<body onload="run()">
+<canvas id="view">Sorry, your browser cannot use graphical canvasses</canvas>
+<div id="title">ALICE'S MIRROR 24.11.18<br/><span class="smaller">Fun with 3D geometry<br/>(HTML5/JS, 2D canvas)</span></div>
+<div id="buttons"></div>
+<div id="hint"></div>
+<div id="data">
+<span id="info"><strong>LOADING...</strong></span> <span id="score"></span> <span id="times"></span>
+</div>
+<script src="lib/utilitiesD.js"></script>
+<script src="lib/uiF.js"></script>
+<script src="lib/point3d5.js"></script>
+<script src="lib/vector3d4.js"></script>
+<script src="lib/image3.js"></script>
+<script src="lib/sprite4.js"></script>
+<script src="lib/faceF.js"></script>
+<script src="lib/shape6.js"></script>
+<script src="lib/polygonD.js"></script>
+<script src="lib/prism9.js"></script>
+<script src="lib/cuboid6.js"></script>
+<script src="lib/tetrahedron1.js"></script>
+<script src="lib/octahedron1.js"></script>
+<script src="lib/dodecahedron3.js"></script>
+<script src="lib/icosahedron1.js"></script>
+<script src="lib/door7.js"></script>
+<script src="lib/composite0.js"></script>
+<script src="lib/viewerB.js"></script>
+<script src="lib/worldW.js"></script>
+<!-- Scripts above are a framework for 3D -->
+<!-- Those below are application-specific -->
+<script src="js/bird5.js"></script>
+<script src="js/cleaner9.js"></script>
+<script src="js/bodB.js"></script>
+<script src="js/mirror3.js"></script>
+<script src="js/chess2.js"></script>
+<script src="js/me0.js"></script>
+<script src="js/speak0.js"></script>
+<script src="js/alice3.js"></script>
+</body>
+</html>
