@@ -10,4 +10,4 @@ A side issue I have included in this version is using speech synthesis to speak 
 
 I was intending to make the player's objective to be capturing the red queen (when she is not hiding) and bringing her back through the mirror - to some kind of surprise. However, I have been unable to come up with any ideas for how the player might do that. So I throw this out as a challenge: can any creative person see how to complete the development along those lines?
 
-I am putting the source files on <a href="https://github.com/grelf-net/mirror/">github</a> too, for anyone to try adding that further development. (There is no money involved. This is just a hobby. I am keen to encourage creativity.)
+I am putting the source files on <a href="https://github.com/grelf-net/mirror/">github</a> too (mirror.zip), for anyone to try adding that further development. (There is no money involved. This is just a hobby. I am keen to encourage creativity.)
